@@ -46,6 +46,12 @@ sudo yum -y install libevent
 sudo yum -y install pcre pcre-devel zlib zlib-devel openssl openssl-devel
 ```
 
+#### 1.2.5 安装perl所需依赖
+
+```shell
+sudo yum -y install perl perl-devel
+```
+
 
 
 #### 1.2.5 安装libfastcommon-master
@@ -55,7 +61,7 @@ sudo yum -y install pcre pcre-devel zlib zlib-devel openssl openssl-devel
 - 解压刚刚上传的`libfastcommon-master.zip`
 
   ```shell
-  tar -xvf libfastcommon-master.zip
+  unzip libfastcommon-master.zip
   ```
 
 - 进入解压完成的目录：
@@ -68,7 +74,7 @@ sudo yum -y install pcre pcre-devel zlib zlib-devel openssl openssl-devel
 
   ```shell
   sudo ./make.sh 
-  sudo ./makesh install
+  sudo ./make.sh install
   ```
 
 
